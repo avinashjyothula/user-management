@@ -1,0 +1,75 @@
+.custom-header {
+  background: #fff;
+}
+
+.logo-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0;
+}
+
+.logo-box {
+  border: 3px solid #000;
+  padding: 8px 36px;
+  display: inline-block;
+  min-width: 110px;
+  text-align: center;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #111;
+ 
+}
+
+.logo-estd {
+  font-size: 0.8rem;        
+  color: #222;
+  margin: 0;               
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+}
+
+.logo-year {
+  font-size: 0.9rem;        
+  font-weight: 600;
+  color: #222;
+  margin: 0;               
+  text-align: center;
+  width: 100%;
+  line-height: 1;
+  padding-top: 0;          
+}
+.bg-light {
+  background: rgba(246, 246, 250, 0.93) !important;
+}
+
+.card {
+  border-radius: 14px;
+}
+
+.form-control, .form-select, textarea {
+  background: rgba(255,255,255,0.86) !important;
+  border: 1px solid #edeef0 !important;
+  box-shadow: 0 1px 8px rgba(110, 106, 200, 0.08) !important;
+  transition: border 0.2s, box-shadow 0.2s !important;
+}
+
+.form-control:focus, .form-select:focus, textarea:focus {
+  border-color: #ff9800 !important;
+  box-shadow: 0 0 0 3px #ffe0b299 !important;
+  outline: none !important;
+}
+
+.subdomain-line {
+  height: 36px;
+  width: 4px;
+  border-radius: 3px;
+  background: grey;
+  margin-right: 10px;
+  opacity: 0.7;
+  flex-shrink: 0;
+}
